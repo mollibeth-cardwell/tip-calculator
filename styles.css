@@ -1,0 +1,174 @@
+body {
+  font-family: 'Space Mono', monospace;
+  text-align: center;
+  background-color: hsl(185, 41%, 84%);
+}
+
+h1 {
+  color: hsl(172, 67%, 45%);
+}
+
+h4 {
+  font-size: 16px;
+}
+
+p {
+  font-size: 12px;
+  color: hsl(184, 14%, 56%);
+}
+
+/* Headers */
+
+.left-text {
+  color: hsl(183, 100%, 15%);
+}
+
+.bill-heading {
+  padding-top: 10px;
+}
+
+
+.header-margin {
+  margin-top: 25px;
+}
+
+.right-text {
+  color: hsl(0, 0%, 100%);
+}
+
+/* Logo */
+
+.logo {
+  margin: 50px auto;
+}
+
+/* Card Styles & Card Columns */
+
+.card {
+  margin: 0% 10% 10%;
+  text-align: left;
+  padding: 3%;
+  border-radius: 25px;
+}
+
+.left-side {
+  background-color: hsl(0, 0%, 100%);
+  padding-right: 25px;
+}
+
+.right-side {
+  background-color: hsl(183, 100%, 15%);
+  padding: 5%;
+  border-radius: 25px;
+}
+
+/* Inputs */
+
+.input-group {
+  background-color: hsl(189, 41%, 97%);
+  border-radius: 5px;
+}
+
+.input-group-text {
+  border: none;
+  background-color: inherit;
+}
+
+.num-input {
+  background-color: inherit;
+  border: none;
+  text-align: right;
+  font-size: 24px;
+}
+
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Buttons */
+
+.percent-button {
+  background-color: hsl(183, 100%, 15%);
+  color: hsl(0, 0%, 100%);
+  width: 30%;
+  margin: 3px;
+  font-size: 18px;
+}
+
+.percent-button:hover {
+  background-color: hsl(172, 67%, 45%);
+}
+
+.percent-button-clicked {
+  background-color: hsl(172, 67%, 45%);
+  opacity: 80%;
+}
+
+.custom-button {
+  background-color: hsl(189, 41%, 97%);
+  color: hsl(183, 100%, 15%);
+}
+
+
+.custom-button:hover {
+  background-color: hsl(189, 41%, 97%);
+  border: 2px hsl(172, 67%, 45%);
+}
+
+.reset-button {
+  background-color: hsl(186, 14%, 43%);
+  color: hsl(183, 100%, 15%);
+  width: 100%;
+  margin-top: 4.5rem;
+  opacity: 50%;
+}
+
+.reset-button-active {
+  background-color: hsl(172, 67%, 45%);
+  opacity: 100%;
+}
+
+.reset-button-active:hover {
+  background-color: hsl(172, 67%, 45%);
+  opacity: 80%;
+  color: hsl(183, 100%, 15%);
+}
+
+
+/* Per Person */
+
+.total-pp {
+  margin-top: 25px;
+}
+
+.total-per-p {
+  text-align: right;
+}
+
+.tip-pp {
+  text-align: right;
+}
+
+
+/* Attribution */
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  margin: 20px;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+  text-decoration: none;
+}
+
+/* Mobile Styling */
+
+@media (max-width: 600px) {
+  .card {
+    margin: 0;
+    padding: 5%;
+  }
+}
