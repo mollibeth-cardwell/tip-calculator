@@ -56,7 +56,7 @@ I used this challenge to practice implementing Javascript to create the function
 
 ### Continued development
 
-To improve this site and match the design specs more closely, I'd like to look into how to override different settings of various browsers. For example, when using Chrome and an input field is active, it shows a highlighted border. This is something I found challenging to fix and did not readily find a solution through searching the internet. I'd like to spend more time understanding browser settings so that a site appears uniform across any device or browser used.
+To improve this site and match the design specs more closely, I'd like to look into how to override different settings of various browsers. For example, when using Chrome and an input field is active, it shows a highlighted border. I'd like to spend more time understanding browser settings so that a site appears uniform across any device or browser used.
 
 ### Useful resources
 
