@@ -43,9 +43,8 @@ Users should be able to:
 
 - HTML5 markup
 - CSS custom properties
-- Bootstrap Grid and Flexbox
+- [Bootstrap](https://getbootstrap.com/) Grid and Flexbox
 - Javascript
-- [Bootstrap](https://getbootstrap.com/)
 
 
 
